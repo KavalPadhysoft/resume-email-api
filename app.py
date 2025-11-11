@@ -8,8 +8,8 @@ app = Flask(__name__)
 # ==== CONFIGURE YOUR EMAIL ACCOUNT ====
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SMTP_USERNAME = "yourmail@gmail.com"        # your email
-SMTP_PASSWORD = "your-app-password"         # Gmail App Password (not normal password)
+SMTP_USERNAME = "hpadhyasoft@gmail.com"        # your email
+SMTP_PASSWORD = "tcipszgmdwfagmbn"         # Gmail App Password (not normal password)
 
 @app.route("/sendresume", methods=["POST"])
 def send_resume():
@@ -63,3 +63,4 @@ def send_resume():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
